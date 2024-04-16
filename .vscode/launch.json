@@ -8,7 +8,8 @@
             "name": "Python Debugger: Current File",
             "type": "debugpy",
             "request": "launch",
-            "program": "hf_transformer/main.py",
+            // "program": "hf_transformer/main.py",
+            "program": "${file}",
             "console": "integratedTerminal",
             "justMyCode": false
         }
